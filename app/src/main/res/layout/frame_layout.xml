@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALTAR"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ImageView
+        android:layout_width="91dp"
+        android:layout_height="91dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        />
+
+</FrameLayout>
